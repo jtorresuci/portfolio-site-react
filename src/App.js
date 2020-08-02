@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import Projects from './components/Projects/Projects';
 
+import LandingPage from './components/LandingPage/LandingPage';
 
 const pages = ["Resume", "Projects", "Contact", "Privacy Policy"]
 
@@ -37,6 +38,7 @@ function App() {
                    </ul>
                </div>
            </nav>
+           <Route path="/portfolio-site" component={LandingPage}/>
            <Route path="/Resume/" component={Resume}/>
            <Route path="/Projects/" component={Projects}/>
            <Route path="/Contact/" component={Contact}/>
