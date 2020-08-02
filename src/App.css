@@ -1,0 +1,56 @@
+.header-color{
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+}
+
+.navbar-brand{
+    font-family: prnovathin;
+
+    color: #ffffff !important;
+
+    letter-spacing: 0.4em;
+
+}
+.navbar-brand:hover{
+    font-family: prnovabold;
+
+    color: red !important;
+
+    letter-spacing: 0.4em;
+
+}
+
+.text-link:hover{
+    font-family: prnovabold;
+    letter-spacing: 0.4em;
+    color: red;
+    text-decoration: none;
+
+}
+@font-face{
+    font-family: prnovabold;
+    src: url("fonts/prnovabold.otf");
+
+}
+@font-face{
+    font-family: prnovathin;
+    src: url("fonts/prnovathin.otf");
+
+}
+
+.text-link{
+    font-family: prnovathin;
+    letter-spacing: 0.4em;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.text-link:hover{
+    font-family: prnovabold;
+    letter-spacing: 0.4em;
+    color: red;
+    text-decoration: none;
+
+}
