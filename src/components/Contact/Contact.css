@@ -8,3 +8,21 @@
     src: url("../../fonts/prnovathin.otf");
 
 }
+
+.text-body{
+    font-family: prnovathin;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact-border {
+    display: block;
+    width: 20em;
+    height: 3px;
+    background: red;
+    margin: 7px auto;
+}
+
+.contact-body{
+    text-align: center;
+}
