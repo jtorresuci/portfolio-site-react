@@ -6,8 +6,12 @@ import './LandingPage.css'
 
 function LandingPage (){
     return(
+
         <div>
-            <div class="d-flex p-2">
+            <div class = "d-flex align-items-center justify-content-center mt-5">
+                <img src={avatar} width="400" height="400"/>
+            </div>
+            <div class="d-flex p-2" >
             </div>
             <div class={"container"}>
                 <div className={"row"}>
@@ -18,6 +22,7 @@ function LandingPage (){
                                 Full Stack Developer
                                 <hr/>
                                 <p>HTML/CSS | C++ | Python | JavaScript | React | NodeJS | JS Express</p>
+                                <p></p>
                             </h1>
                         </div>
 
