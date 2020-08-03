@@ -21,8 +21,9 @@ function LandingPage (){
                             <h1>
                                 Full Stack Developer
                                 <hr/>
-                                <p>HTML/CSS | C++ | Python | JavaScript | React | NodeJS | JS Express</p>
-                                <p></p>
+                                <p class={"mt-4"}>| HTML | CSS | JavaScript | React | Bootstrap |</p>
+                                <p>| C++ | Python | Java | MySQL|</p>
+                                <p class={"pb-4"}>| Swift | Flutter |</p>
                             </h1>
                         </div>
 

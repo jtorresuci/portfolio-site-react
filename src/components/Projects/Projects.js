@@ -14,7 +14,7 @@ function Projects (){
     return(
         <div>
 
-            <ul class ="nav justify-content-center">
+            <ul class ="nav justify-content-center p-5">
                 {tabs.map((tab, index) => {
                     return (
                         <li >
